@@ -13,6 +13,12 @@ document.addEventListener("DOMContentLoaded", (e) => {
     e.preventDefault();
     handlesubmission();
   })
+
+  let button=document.getElementById("button")
+  button.addEventListener('click', (e)=>{
+    e.preventDefault();
+    list.firstElementChild.remove();
+  })
 });
 
 
