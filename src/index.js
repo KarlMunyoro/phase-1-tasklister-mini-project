@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
     text.textContent = input.value;
     list.append(text);
   }
-
+  
   form.addEventListener('submit', (e)=>{
     e.preventDefault();
     handlesubmission();
